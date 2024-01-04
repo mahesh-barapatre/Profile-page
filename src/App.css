@@ -9,7 +9,6 @@
 }
 
 .border-gradient {
-  
   border-image: linear-gradient(to bottom, #ff2475, #15b9ff);
   border-image-slice: 1;
 }
@@ -19,8 +18,13 @@
   background-image: url("assets/pattern.svg");
 }
 
+.tx-color{
+  color: rgb(255, 0, 183);
+  filter: brightness(150%) saturate(150%);
+}
+
 .bg-gradient{
-  background: linear-gradient(180deg, #ff2475, #15b9ff) ;
+  background: linear-gradient(180deg, #fc18a5, #15b9ff) ;
 }
 .lg-gradient{
   background: linear-gradient(180deg, #ff0000, #941aff) ;

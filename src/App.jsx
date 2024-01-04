@@ -29,106 +29,111 @@ function App() {
       <div className="p-5 h-[50vh] bg-img bg-cover flex justify-between">
         <FaArrowLeft />
         <div className="flex flex-col items-end font-semibold">
-          <span className="bg-white px-3 py-2 rounded-full m-2 text-black w-fit">
+          <span className="bg-white text-sm px-4 py-2 rounded-full m-2 text-black w-fit">
             Get more accurate results
           </span>
-          <span className="border-2 px-3 text-sm sm:text-md py-2 m-2 border-gradient bg-black">
+          <span className="border-2 px-4 text-sm sm:text-md py-2 m-1 border-gradient bg-black">
             Hangout with like-minded people
           </span>
         </div>
       </div>
 
-      <div className="w-full relative bottom-24 flex flex-col justify-center bg-transparent items-center">
-        <IoStarSharp className='relative size-4 left-16 top-6 bg-yellow-300 blur' />
-        <IoStarSharp className='relative size-6 left-16 text-yellow-300' />
+      <div className="w-full relative bottom-28 flex flex-col justify-center bg-transparent items-center">
         <img
-          className="rounded-full h-32 w-32 p-3 bg-gray-800"
+          className="relative left-20 top-6"
+          src="src\assets\star-md.svg"
+          alt="star"
+        />
+        <img
+          className="rounded-full h-44 w-44 p-4 bg-gray-800"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRlU3KKehF60rMuD7FPFv5XfGRyVFodjWXnQ&usqp=CAU"
           alt="user-img"
         />
-        <IoStarSharp className='relative right-14 bottom-2 bg-yellow-300 blur' />
-        <IoStarSharp className='relative bottom-6 right-14 text-yellow-300' />
+        <img
+          className="relative size-7 right-20 bottom-8"
+          src="src\assets\star-md.svg"
+          alt="star"
+        />
 
-        <span className="">
-          <span className="font-bold">You</span>, 21
+        <span className="text-gray-400">
+          <span className="text-lg text-white">You</span>, 21
         </span>
-        <span>Female</span>
+        <span className="text-sm text-gray-400">Female</span>
       </div>
 
-      <div className="flex flex-col sm:flex-row sm:justify-around sm:mb-10">
-        <div className="font-semibold p-5 ">
+      <div className="flex relative bottom-24 flex-col bg-transparent sm:flex-row sm:justify-around sm:mb-10">
+        <div className="space-y-3 p-5 ">
           <div>
-            <span className="uppercase text-fuchsia-500 mr-2">first name</span>
+            <span className="uppercase tx-color mr-2">first name</span>
             Jennifer
           </div>
           <div>
-            <span className="uppercase text-fuchsia-500 mr-2">last name</span>
+            <span className="uppercase tx-color mr-2">last name</span>
             John
           </div>
           <div>
-            <span className="uppercase text-fuchsia-500 mr-2">birthday</span>7
-            May 2005
+            <span className="uppercase tx-color mr-2">birthday</span>7 May 2005
           </div>
-          <div>
-            <span className="uppercase text-fuchsia-500 mr-2">age</span>
+          <div className="text-gray-400">
+            <span className="uppercase tx-color mr-2">age</span>
             22
           </div>
           <div>
-            <span className="uppercase text-fuchsia-500 mr-2">gender</span>
+            <span className="uppercase tx-color mr-2">gender</span>
             Female
           </div>
-          <div>
-            <span className="uppercase text-fuchsia-500 mr-2">phone</span>
+          <div className="text-gray-400">
+            <span className="uppercase tx-color mr-2">phone</span>
             +91 8283016334
           </div>
           <div>
-            <span className="uppercase text-fuchsia-500 mr-2">email</span>
+            <span className="uppercase tx-color mr-2">email</span>
             jenni.john@gmail.com
           </div>
         </div>
 
-        <div className="flex flex-col space-y-3 my-5 p-5 font-bold">
+        <div className="flex flex-col mt-5 p-5 pb-0 space-y-3">
           <div className="flex">
-            <FaEarthAmericas className="mt-1 mr-2" />
+            <FaEarthAmericas className="mt-1 mr-2 text-gray-400" />
             San fransisco
           </div>
           <div className="flex">
-            <PiGraduationCapBold className="mt-1 mr-2" />
+            <PiGraduationCapBold className="mt-1 mr-2 text-gray-400" />
             Havard
           </div>
           <div className="flex">
-            <MdOutlineWorkOutline className="mt-1 mr-2" />
+            <MdOutlineWorkOutline className="mt-1 mr-2 text-gray-400" />
             Not yet
           </div>
-          <div className="flex font-normal text-sm w-3/4">
-            <IoIosFlower className="mt-1 mr-2 size-8 font-bold pb-3" />
+          <div className="flex font-normal text-sm w-3/4 text-gray-400">
+            <IoIosFlower className="mt-1 mr-2 size-8 font-bold pb-3 text-white" />
             Tell everyone what's the most interesting thing about you?
           </div>
         </div>
       </div>
 
-      <div className="flex text-xl my-3 px-5">
+      <div className="flex text-xl px-5 font-bold">
         People
         <span className="text-gradient bg-gradient-to-r from-pink-500 to-blue-500 mx-2">
           similar to you
         </span>
-        <span className="flex p-1 bg-gradient rounded-lg">
+        <span className="flex p-2 bg-gradient font-semibold text-sm rounded-lg">
           <FaPlusMinus className="mt-1" />
           10%
           <FaArrowDown className="mt-1" />
         </span>
       </div>
 
-      <div className="py-10 flex flex-wrap px-5">
-        <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 my-10">
-          <div className="h-28 w-28 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-2 sm:p-3">
+      <div className="pb-10 flex flex-wrap px-5">
+        <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
+          <div className="h-24 w-24 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-3">
             {images.map((image) => (
               <img className="rounded-full w-1/3 h-1/3" src={image} alt="img" />
             ))}
           </div>
 
           <span className="font-bold text-sm my-3">Behaviour(27%)</span>
-          <span className="text-sm flex space-x-2 font-bold">
+          <span className="text-sm flex space-x-1">
             <FaMale className="mt-1 text-sky-400" />
             1000.
             <FaFemale className="mt-1 text-pink-400" />
@@ -137,32 +142,31 @@ function App() {
             15
           </span>
         </div>
-        <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 my-10">
-          <div className="h-28 w-28 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-2 sm:p-3">
+        <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
+          <div className="h-24 w-24 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-3">
             {images.map((image) => (
               <img className="rounded-full w-1/3 h-1/3" src={image} alt="img" />
             ))}
           </div>
 
           <span className="font-bold text-sm my-3">Interests(6%)</span>
-          <span className="text-sm flex space-x-2 font-bold">
+          <span className="text-sm flex space-x-1">
             <FaMale className="mt-1 text-sky-400" />
             210.
             <FaFemale className="mt-1 text-pink-400" />
             1400.
-            <MdFlag className="mt-1 lg-gradient" />
-            5
+            <MdFlag className="mt-1 lg-gradient" />5
           </span>
         </div>
-        <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 my-10">
-          <div className="h-28 w-28 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-2 sm:p-3">
+        <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
+          <div className="h-24 w-24 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-3">
             {images.map((image) => (
               <img className="rounded-full w-1/3 h-1/3" src={image} alt="img" />
             ))}
           </div>
 
           <span className="font-bold text-sm my-3">Values(81%)</span>
-          <span className="text-sm flex space-x-2 font-bold">
+          <span className="text-sm flex space-x-1 ">
             <FaMale className="mt-1 text-sky-400" />
             34k.
             <FaFemale className="mt-1 text-pink-400" />
@@ -171,38 +175,36 @@ function App() {
             1.5k
           </span>
         </div>
-        <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 my-10">
-          <div className="h-28 w-28 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-2 sm:p-3">
+        <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
+          <div className="h-24 w-24 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-3">
             {images.map((image) => (
               <img className="rounded-full w-1/3 h-1/3" src={image} alt="img" />
             ))}
           </div>
 
           <span className="font-bold text-sm my-3">Exroversion(0.98%)</span>
-          <span className="text-sm flex space-x-2 font-bold">
+          <span className="text-sm flex space-x-1">
             <FaMale className="mt-1 text-sky-400" />
             34.
             <FaFemale className="mt-1 text-pink-400" />
             280.
-            <MdFlag className="mt-1 lg-gradient" />
-            1
+            <MdFlag className="mt-1 lg-gradient" />1
           </span>
         </div>
-        <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 my-10">
-          <div className="h-28 w-28 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-2 sm:p-3">
+        <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
+          <div className="h-24 w-24 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-3">
             {images.map((image) => (
               <img className="rounded-full w-1/3 h-1/3" src={image} alt="img" />
             ))}
           </div>
 
           <span className="font-bold text-sm my-3">Introversion(99.2%)</span>
-          <span className="text-sm flex space-x-2 font-bold">
+          <span className="text-sm flex space-x-1">
             <FaMale className="mt-1 text-sky-400" />
             21k.
             <FaFemale className="mt-1 text-pink-400" />
             37k.
-            <MdFlag className="mt-1 lg-gradient" />
-            3
+            <MdFlag className="mt-1 lg-gradient" />3
           </span>
         </div>
       </div>
