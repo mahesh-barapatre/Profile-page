@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.border-gradient {
+  
+  border-image: linear-gradient(to bottom, #ff2475, #15b9ff);
+  border-image-slice: 1;
+}
+
+.bg-img{
+  
+  background-image: url("assets/pattern.svg");
+}
+
+.bg-gradient{
+  background: linear-gradient(180deg, #ff2475, #15b9ff) ;
+}
+.lg-gradient{
+  background: linear-gradient(180deg, #ff0000, #941aff) ;
+}
+
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+}
