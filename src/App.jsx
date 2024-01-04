@@ -41,7 +41,7 @@ function App() {
       <div className="w-full relative bottom-28 flex flex-col justify-center bg-transparent items-center">
         <img
           className="relative left-20 top-6"
-          src="src\assets\star-md.svg"
+          src="assets/star-md.svg"
           alt="star"
         />
         <img
@@ -51,7 +51,7 @@ function App() {
         />
         <img
           className="relative size-7 right-20 bottom-8"
-          src="src\assets\star-md.svg"
+          src="assets/star-md.svg"
           alt="star"
         />
 
