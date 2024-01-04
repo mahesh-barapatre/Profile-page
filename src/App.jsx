@@ -8,6 +8,9 @@ import { FaPlusMinus } from "react-icons/fa6";
 import { FaArrowDown } from "react-icons/fa";
 import { FaMale } from "react-icons/fa";
 import { FaFemale } from "react-icons/fa";
+import starmd from '../public/star-md.svg';
+import starsm from '../public/star-sm.svg';
+import lgtv from '../public/lgtv.png';
 
 function App() {
 
@@ -38,8 +41,8 @@ function App() {
 
       <div className="w-full relative bottom-28 flex flex-col justify-center bg-transparent items-center">
         <img
-          className="relative left-20 top-6"
-          src="public/star-md.svg"
+          className="relative left-20 top-6 size-16"
+          src={starmd}
           alt="star"
         />
         <img
@@ -48,8 +51,8 @@ function App() {
           alt="user-img"
         />
         <img
-          className="relative size-7 right-20 bottom-8"
-          src="public/star-md.svg"
+          className="relative size-5 right-20 bottom-8"
+          src={starsm}
           alt="star"
         />
 
@@ -138,7 +141,7 @@ function App() {
             2400.
             <img
               className=' size-6'
-              src="public/lgtv.png" alt="flag" />
+              src={lgtv} alt="flag" />
             15
           </span>
         </div>
@@ -157,7 +160,7 @@ function App() {
             1400.
             <img
               className=' size-6'
-              src="public/lgtv.png" alt="flag" />5
+              src={lgtv} alt="flag" />5
           </span>
         </div>
         <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
@@ -175,7 +178,7 @@ function App() {
             41k.
             <img
               className=' size-6'
-              src="public/lgtv.png" alt="flag" />
+              src={lgtv} alt="flag" />
             1.5k
           </span>
         </div>
@@ -194,7 +197,7 @@ function App() {
             280.
             <img
               className=' size-6'
-              src="public/lgtv.png" alt="flag" />1
+              src={lgtv} alt="flag" />1
           </span>
         </div>
         <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
@@ -212,7 +215,7 @@ function App() {
             37k.
             <img
               className=' size-6'
-              src="public/lgtv.png" alt="flag" />3
+              src={lgtv} alt="flag" />3
           </span>
         </div>
       </div>
