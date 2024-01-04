@@ -39,7 +39,7 @@ function App() {
       <div className="w-full relative bottom-28 flex flex-col justify-center bg-transparent items-center">
         <img
           className="relative left-20 top-6"
-          src="src/assets/star-md.svg"
+          src="public/star-md.svg"
           alt="star"
         />
         <img
@@ -49,7 +49,7 @@ function App() {
         />
         <img
           className="relative size-7 right-20 bottom-8"
-          src="src/assets/star-md.svg"
+          src="public/star-md.svg"
           alt="star"
         />
 
@@ -138,7 +138,7 @@ function App() {
             2400.
             <img
               className=' size-6'
-              src="src/assets/lgtv.png" alt="flag" />
+              src="public/lgtv.png" alt="flag" />
             15
           </span>
         </div>
@@ -157,7 +157,7 @@ function App() {
             1400.
             <img
               className=' size-6'
-              src="src/assets/lgtv.png" alt="flag" />5
+              src="public/lgtv.png" alt="flag" />5
           </span>
         </div>
         <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
@@ -175,7 +175,7 @@ function App() {
             41k.
             <img
               className=' size-6'
-              src="src/assets/lgtv.png" alt="flag" />
+              src="public/lgtv.png" alt="flag" />
             1.5k
           </span>
         </div>
@@ -194,7 +194,7 @@ function App() {
             280.
             <img
               className=' size-6'
-              src="src/assets/lgtv.png" alt="flag" />1
+              src="public/lgtv.png" alt="flag" />1
           </span>
         </div>
         <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
@@ -212,7 +212,7 @@ function App() {
             37k.
             <img
               className=' size-6'
-              src="src/assets/lgtv.png" alt="flag" />3
+              src="public/lgtv.png" alt="flag" />3
           </span>
         </div>
       </div>
