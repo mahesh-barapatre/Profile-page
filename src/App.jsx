@@ -8,8 +8,6 @@ import { FaPlusMinus } from "react-icons/fa6";
 import { FaArrowDown } from "react-icons/fa";
 import { FaMale } from "react-icons/fa";
 import { FaFemale } from "react-icons/fa";
-import { MdFlag } from "react-icons/md";
-import { IoStarSharp } from "react-icons/io5";
 
 function App() {
 
@@ -41,7 +39,7 @@ function App() {
       <div className="w-full relative bottom-28 flex flex-col justify-center bg-transparent items-center">
         <img
           className="relative left-20 top-6"
-          src="assets/star-md.svg"
+          src="src/assets/star-md.svg"
           alt="star"
         />
         <img
@@ -51,7 +49,7 @@ function App() {
         />
         <img
           className="relative size-7 right-20 bottom-8"
-          src="assets/star-md.svg"
+          src="src/assets/star-md.svg"
           alt="star"
         />
 
@@ -126,7 +124,7 @@ function App() {
 
       <div className="pb-10 flex flex-wrap px-5">
         <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
-          <div className="h-24 w-24 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-3">
+          <div className="h-24 w-24 sm:w-32 sm:h-32 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-4">
             {images.map((image) => (
               <img className="rounded-full w-1/3 h-1/3" src={image} alt="img" />
             ))}
@@ -134,16 +132,18 @@ function App() {
 
           <span className="font-bold text-sm my-3">Behaviour(27%)</span>
           <span className="text-sm flex space-x-1">
-            <FaMale className="mt-1 text-sky-400" />
-            1000.
-            <FaFemale className="mt-1 text-pink-400" />
+            <FaFemale className="mt-1 bg-pink-600 rounded-sm" />
+            1300.
+            <FaMale className="mt-1 bg-blue-600 rounded-sm" />
             2400.
-            <MdFlag className="mt-1 lg-gradient" />
+            <img
+              className=' size-6'
+              src="src/assets/lgtv.png" alt="flag" />
             15
           </span>
         </div>
         <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
-          <div className="h-24 w-24 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-3">
+          <div className="h-24 w-24 sm:w-32 sm:h-32 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-4">
             {images.map((image) => (
               <img className="rounded-full w-1/3 h-1/3" src={image} alt="img" />
             ))}
@@ -151,15 +151,17 @@ function App() {
 
           <span className="font-bold text-sm my-3">Interests(6%)</span>
           <span className="text-sm flex space-x-1">
-            <FaMale className="mt-1 text-sky-400" />
+            <FaFemale className="mt-1 bg-pink-600 rounded-sm" />
             210.
-            <FaFemale className="mt-1 text-pink-400" />
+            <FaMale className="mt-1 bg-blue-600 rounded-sm" />
             1400.
-            <MdFlag className="mt-1 lg-gradient" />5
+            <img
+              className=' size-6'
+              src="src/assets/lgtv.png" alt="flag" />5
           </span>
         </div>
         <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
-          <div className="h-24 w-24 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-3">
+          <div className="h-24 w-24 sm:w-32 sm:h-32 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-4">
             {images.map((image) => (
               <img className="rounded-full w-1/3 h-1/3" src={image} alt="img" />
             ))}
@@ -167,16 +169,18 @@ function App() {
 
           <span className="font-bold text-sm my-3">Values(81%)</span>
           <span className="text-sm flex space-x-1 ">
-            <FaMale className="mt-1 text-sky-400" />
+            <FaFemale className="mt-1 bg-pink-600 rounded-sm" />
             34k.
-            <FaFemale className="mt-1 text-pink-400" />
+            <FaMale className="mt-1 bg-blue-600 rounded-sm" />
             41k.
-            <MdFlag className="mt-1 lg-gradient" />
+            <img
+              className=' size-6'
+              src="src/assets/lgtv.png" alt="flag" />
             1.5k
           </span>
         </div>
         <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
-          <div className="h-24 w-24 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-3">
+          <div className="h-24 w-24 sm:w-32 sm:h-32 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-4">
             {images.map((image) => (
               <img className="rounded-full w-1/3 h-1/3" src={image} alt="img" />
             ))}
@@ -184,15 +188,17 @@ function App() {
 
           <span className="font-bold text-sm my-3">Exroversion(0.98%)</span>
           <span className="text-sm flex space-x-1">
-            <FaMale className="mt-1 text-sky-400" />
+            <FaFemale className="mt-1 bg-pink-600 rounded-sm" />
             34.
-            <FaFemale className="mt-1 text-pink-400" />
+            <FaMale className="mt-1 bg-blue-600 rounded-sm" />
             280.
-            <MdFlag className="mt-1 lg-gradient" />1
+            <img
+              className=' size-6'
+              src="src/assets/lgtv.png" alt="flag" />1
           </span>
         </div>
         <div className="rounded-full justify-center items-center flex flex-col w-1/2 sm:w-1/4 md:w-1/5 mt-10">
-          <div className="h-24 w-24 sm:w-40 sm:h-40 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-3">
+          <div className="h-24 w-24 sm:w-32 sm:h-32 rounded-xl bg-gray-600 flex flex-wrap p-3 sm:p-4">
             {images.map((image) => (
               <img className="rounded-full w-1/3 h-1/3" src={image} alt="img" />
             ))}
@@ -200,11 +206,13 @@ function App() {
 
           <span className="font-bold text-sm my-3">Introversion(99.2%)</span>
           <span className="text-sm flex space-x-1">
-            <FaMale className="mt-1 text-sky-400" />
+            <FaFemale className="mt-1 bg-pink-600 rounded-sm" />
             21k.
-            <FaFemale className="mt-1 text-pink-400" />
+            <FaMale className="mt-1 bg-blue-600 rounded-sm" />
             37k.
-            <MdFlag className="mt-1 lg-gradient" />3
+            <img
+              className=' size-6'
+              src="src/assets/lgtv.png" alt="flag" />3
           </span>
         </div>
       </div>

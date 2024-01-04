@@ -27,7 +27,7 @@
   background: linear-gradient(180deg, #fc18a5, #15b9ff) ;
 }
 .lg-gradient{
-  background: linear-gradient(180deg, #ff0000, #941aff) ;
+  color: linear-gradient(180deg, #ff0000, #941aff) ;
 }
 
 .text-gradient {
